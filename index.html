@@ -4,9 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <title>Qoute-website</title>
+  <title>Tip calc-beginner</title>
   
   <!-- HTML -->
   
@@ -16,13 +14,19 @@
 </head>
 
 <body>
+        <h2 class="text-center">Check your Tip</h2>
+  <div class="conalert">
+    <p id="conalert">result will apear here</p>
+  </div>
    <div class="con">
-
+     <input id="money" type="number" placeholder="$" required>
+     <input id="tip" type="number" placeholder="%" required>
+     <input id="person" type="number" placeholder="persons" required>
+     
+     <button type="submit" id="btn" >submit</button>
    </div>
-   
-   <!--cooyright--> <button class="copyright">C</button>
+         <button><a href="index2.html">Got to Bmi calc</a></button>
   <!-- Project -->
-  <script> AOS.init(); </script>
   <script src="main.js"></script>
 </body>
 </html>
