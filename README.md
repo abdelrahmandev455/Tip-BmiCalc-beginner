@@ -10,7 +10,7 @@ Here you can check your bmi and how many tip must you give or even take.
 
 ## Links
 
-['See live']['https://tip-bmiCalc-beginner.netlify.app']
+['See live']['https://calcitknow.netlify.app']
 
 ###### Copyright 
 All right reseved by Abdelrahman with the email 
